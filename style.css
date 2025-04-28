@@ -27,3 +27,35 @@ gap:80px;
     color: white;
     text-decoration: none;
 }
+
+.titulo-destaque {
+      color:beige;
+}
+
+.conteudo {
+  height: auto;
+  flex-direction: column;
+  margin: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.apresentacao-conteudo {
+width: 615px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+height: auto;
+gap: 40px;
+order: 2;
+}
+
+.apresentacao-conteudo-titulo {
+
+
+    
+}
