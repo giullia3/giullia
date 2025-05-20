@@ -74,14 +74,14 @@ font-size: 40px;
 }
 .botao1 {
     background-color: #f9bcd8;
-    color: #ffffff;
+    color: #f82d2d;
     width: 500px;
     height: 80px;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #fbf9f7;
+    border: 2px solid #f82d2d;
     border-radius: 50px;
     padding: 15px 0;
     text-decoration: none;
@@ -99,7 +99,7 @@ font-size: 40px;
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, transparent, rgba(1, 239, 144, 0.133)2c );
+    background: linear-gradient(45deg, transparent, #f52525 );
     transition:0.5s;
 }
 
@@ -114,3 +114,184 @@ font-size: 40px;
     transform: translate(-50%, -50%);
     font-size: 60px;
 }
+
+/* fim .botao1 */
+
+.botao2 {
+    background-color: #f9bcd8;
+    color: #0077b5;
+    width: 500px;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #0077b5;
+    border-radius: 50px;
+    padding: 15px 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+}
+
+.botao2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, #3050a9 );
+    transition:0.5s;
+}
+
+.botao2:hover::before {
+    left: 100%;
+}
+
+.botao2 i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+
+    /* fim .botao2 */
+}
+.botao3 {
+    background-color: #f9bcd8;
+    color: #f333;
+    width: 500px;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #333;
+    border-radius: 50px;
+    padding: 15px 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+}
+
+.botao3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, #fd8f28 );
+    transition:0.5s;
+}
+
+.botao3:hover::before {
+    left: 100%;
+}
+
+.botao3 i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+}
+
+/* fim .botao3 */
+
+.botao4 {
+    background-color: #f9bcd8;
+    color: #25d366;
+    width: 500px;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #25d366;
+    border-radius: 50px;
+    padding: 15px 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+}
+
+.botao4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, #31db5e );
+    transition:0.5s;
+}
+
+.botao4:hover::before {
+    left: 100%;
+}
+
+.botao4 i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+}
+
+/* fim .botao4 */
+
+.botao5 {
+    background-color: #f9bcd8;
+    color: #b61ca9;
+    width: 500px;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #b61ca9;
+    border-radius: 50px;
+    padding: 15px 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+}
+
+.botao5::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, #e02d84 );
+    transition:0.5s;
+}
+
+.botao5:hover::before {
+    left: 100%;
+}
+
+.botao5 i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+}
+
+/* fim .botao5 */
