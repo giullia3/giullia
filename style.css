@@ -188,7 +188,7 @@ font-size: 40px;
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, transparent, #fd8f28 );
+    background: linear-gradient(45deg, transparent, #37322e );
     transition:0.5s;
 }
 
@@ -252,15 +252,15 @@ font-size: 40px;
 /* fim .botao4 */
 
 .botao5 {
-    background-color: #f9bcd8;
-    color: #b61ca9;
+    background: color #ed2b68;
+    color: #ed2b68;
     width: 500px;
     height: 80px;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #b61ca9;
+    border: 2px solid #ed2b68;
     border-radius: 50px;
     padding: 15px 0;
     text-decoration: none;
@@ -278,7 +278,7 @@ font-size: 40px;
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, transparent, #e02d84 );
+    background: linear-gradient(45deg, transparent, #db468e) ;
     transition:0.5s;
 }
 
@@ -295,3 +295,24 @@ font-size: 40px;
 }
 
 /* fim .botao5 */
+.rodape { 
+
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    color: white;
+    background-color: #f9bcd8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px;
+}
+.rodape:hover {
+color: #cd2372;
+
+ }
